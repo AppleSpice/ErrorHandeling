@@ -6,7 +6,13 @@ namespace ErrorHandeling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            RunErrorHandling();
+            Console.ReadKey();
+        }
+
+        static void RunErrorHandling()
+        {
+            Error_Handling.TryCatchMeOutside.MyErrors();
         }
     }
 }
